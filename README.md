@@ -1,14 +1,16 @@
 # Multi-channel-Temperature-Data-Logger ❄ ☀ 
 
 ## Overview
-Arduino based multi-channel K-type thermocouple data logger. Employs Arduino Uno and Adafruit's SD data logger shield to store temperature data in CSV. Configurable polling frequency and ability to echo to serial. Log files are sequentially stored according to boot.
-
-CSV indexes entries using SD shield's RTC, uses system time from OS when booted from USB (serial data port) 5V PSU. 
+Arduino based multi-channel K-type thermocouple data logger. Employs Arduino Uno and Adafruit's SD data logger shield to store temperature data in CSV. Configurable polling frequency and ability to echo to serial. Log files are sequentially stored according to boot. 
 
 ## Operation 
 AD8495 outputs an analog voltage (75mV - 5V) with the realtionship: 5 mV/°C. Arduino ADC used to interpret output voltage. ADC supply voltage corrected using Uno's internal 1.1V reference to normalize. 
 
-Link to AD8495 data sheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf
+Link to AD8495 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf
+
+CSV indexes entries using SD shield's RTC, uses system time from OS when booted from USB (serial data port) 5V PSU.
+
+Link to SD shield information: https://learn.adafruit.com/adafruit-data-logger-shield  
 
 ## Schematic
 ![](https://github.com/morganjlw/Multi-Channel-Temperature-Data-Logger/blob/master/Thermocouple-Array.png)
