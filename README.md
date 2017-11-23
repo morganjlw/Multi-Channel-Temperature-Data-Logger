@@ -22,18 +22,19 @@ Link to SD shield information: https://learn.adafruit.com/adafruit-data-logger-s
 
 ## BOM
 
- Item    | Qty.    | Components 
----------|---------|------------
-Arduino Uno  | 1 | MCU  
-ADA SD Shield  | 1 | SD Shield
-K-type Thermocouple | 4 | Probe   
-AD8495ARMZ-PKG:MSOP-8  | 4 | U1-U4   
-Header-Female-2.5 4_1x6  | 1 | P1      
-Header-Male-2.54_1x2 | 1 | P2,P3,P4,P5
-Thermocouple Jack  | 4 | TC1-TC4   
-Capacitor - 100nF | 13 | C1-C13   
-Capacitor - 10uF | 1 | C14
-Resistor - 100Ω | 1 | R1-R8
+ Item    | Qty.    | Components  | Link 
+---------|---------|------------ |------------
+Arduino Uno  | 1 | MCU |  https://www.adafruit.com/product/50
+ADA SD Shield  | 1 | SD Shield | https://www.adafruit.com/product/1141
+K-type Thermocouple | 4 | Probe | https://www.rpelectronics.com/tl-190-k-type-thermocouple-probe.html 
+AD8495ARMZ-PKG:MSOP-8  | 4 | U1-U4 | https://ca.mouser.com/ProductDetail/Analog-Devices/AD8495ARMZ/?qs=sGAEpiMZZMv9Q1JI0Mo%2ftQIKSaidM5yv 
+Header-Female-2.5 4_1x6  | 1 | P1 | N/A    
+Header-Male-2.54_1x2 | 1 | P2,P3,P4,P5 | N/A
+Thermocouple Jack (MPJ-K-F)  | 4 | TC1-TC4 | https://www.omega.ca/pptst_eng/MPJ.html 
+Thermocouple Snap Strip (MPJ-K-F)  | 1 | TC1-TC4 | https://www.omega.ca/pptst_eng/MSS_Series.html
+Capacitor - 100nF | 13 | C1-C13 | N/A
+Capacitor - 10uF | 1 | C14 | N/A
+Resistor - 100Ω | 1 | R1-R8 | N/A
  
  
  
