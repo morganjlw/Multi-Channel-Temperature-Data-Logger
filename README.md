@@ -11,7 +11,7 @@ AD8495 outputs an analog voltage (75mV - 5V) with the realtionship: 5 mV/°C. Ar
 Link to AD8495 data sheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf
 
 # Schematic
-![]()
+![](https://github.com/morganjlw/Multi-Channel-Temperature-Data-Logger/blob/master/Thermocouple-Amplifier-Array.pdf)
 
 # PCB
 ![](https://github.com/morganjlw/Multi-Channel-Temperature-Data-Logger/blob/master/Thermocouple%20Amplifier%20Array%20PCB.JPG)
