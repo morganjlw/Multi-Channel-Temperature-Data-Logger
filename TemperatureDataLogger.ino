@@ -2,7 +2,7 @@
    == Multi-channel Temperature Data Logger ==
    Written by: Morgan Williams (23/11/2017)
 
-   Summary: Rudimentary program to normalize 2 LM35 sensor outputs and write to an
+   Summary: Rudimentary program to write 4 thermocouple temperature data to an
    SD .CSV file for optimal portablility and manipulation.
 
    Program Notes:
