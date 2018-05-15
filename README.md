@@ -4,7 +4,7 @@
 Arduino based multi-channel K-type thermocouple data logger. Employs Arduino Uno and Adafruit's SD data logger shield to store temperature data in CSV. Configurable polling frequency and ability to echo to serial. Log files are sequentially stored according to boot. 
 
 ## Operation 
-AD8495 outputs an analog voltage (75mV - 5V) with the realtionship: 5 mV/°C. Arduino ADC used to interpret output voltage. ADC supply voltage corrected using Uno's internal 1.1V reference to normalize. 
+AD8495 outputs an analog voltage (75mV - 5V) with the relationship: 5 mV/°C. Arduino ADC used to interpret output voltage. ADC supply voltage corrected using Uno's internal 1.1V reference to normalize. 
 
 Link to AD8495 datasheet: http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf
 
